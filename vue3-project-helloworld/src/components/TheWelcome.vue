@@ -8,6 +8,7 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
+<!-- WelcomeItem 1 -->
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
@@ -19,6 +20,7 @@ import SupportIcon from './icons/IconSupport.vue'
     provides you with all information you need to get started.
   </WelcomeItem>
 
+  <!-- WelcomeItem 2 -->
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
@@ -41,6 +43,7 @@ import SupportIcon from './icons/IconSupport.vue'
     More instructions are available in <code>README.md</code>.
   </WelcomeItem>
 
+  <!-- WelcomeItem 3 -->
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
@@ -57,6 +60,7 @@ import SupportIcon from './icons/IconSupport.vue'
     a visit.
   </WelcomeItem>
 
+  <!-- WelcomeItem 4 -->
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
@@ -75,6 +79,7 @@ import SupportIcon from './icons/IconSupport.vue'
     twitter account for latest news in the Vue world.
   </WelcomeItem>
 
+  <!-- WelcomeItem 5 -->
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
@@ -84,5 +89,16 @@ import SupportIcon from './icons/IconSupport.vue'
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+  </WelcomeItem>
+  <!-- WelcomeItem 6 -->
+  <WelcomeItem>
+    <template #icon>
+      <SupportIcon />
+    </template>
+    <template #heading>Github xiaoxpai</template>
+
+    As an independent project, Vue relies on community backing for its sustainability. You can help
+    us by
+    <a href="https://github.com/xiaoxpai/" target="_blank" rel="noopener">becoming a opensource</a>.
   </WelcomeItem>
 </template>
